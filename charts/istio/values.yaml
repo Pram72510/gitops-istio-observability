@@ -1,1 +1,15 @@
-# values placeholder
+global:
+  istioNamespace: istio-system
+
+istiod:
+  enabled: true
+
+base:
+  enabled: true
+
+gateway:
+  enabled: true
+  name: istio-ingressgateway
+  namespace: istio-system
+  labels:
+    istio: ingressgateway
