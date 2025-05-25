@@ -4,3 +4,4 @@ global:
 gateways:
   istio-ingressgateway:
     enabled: true
+    name: istio-ingressgateway
