@@ -1,10 +1,10 @@
 global:
   istioNamespace: istio-system
 
-istiod:
+base:
   enabled: true
 
-base:
+istiod:
   enabled: true
 
 gateway:
