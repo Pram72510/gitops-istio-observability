@@ -1,15 +1,2 @@
 global:
   istioNamespace: istio-system
-
-base:
-  enabled: true
-
-istiod:
-  enabled: true
-
-gateway:
-  enabled: true
-  name: istio-ingressgateway
-  namespace: istio-system
-  labels:
-    istio: ingressgateway
